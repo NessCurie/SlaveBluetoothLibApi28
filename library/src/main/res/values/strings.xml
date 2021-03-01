@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pbap_account_type">com.android.bluetooth.pbapsink</string>
+    <string name="unknown">Unknown</string>
+    <string name="bt_not_connect">Bluetooth is not connected.</string>
+    <string name="multi_call">Conference call(With %s people)</string>
+    <string name="device_busy_hint">Bluetooth connection is in operation, please try again later</string>
+    <string name="crash_hint">Sorry, the program is abnormal and the application will be restarted soon.</string>
+</resources>

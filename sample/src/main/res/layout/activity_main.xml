@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="54dp"
+        android:includeFontPadding="false"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <RadioGroup
+        android:id="@+id/rgMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbMusic"
+            style="@style/MainTabStyle"
+            android:text="@string/bt_music" />
+
+        <RadioButton
+            android:id="@+id/rbPhone"
+            style="@style/MainTabStyle"
+            android:layout_marginStart="34dp"
+            android:text="@string/bt_phone" />
+
+        <RadioButton
+            android:id="@+id/rbSet"
+            style="@style/MainTabStyle"
+            android:layout_marginStart="34dp"
+            android:checked="true"
+            android:text="@string/bt_set" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/flContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rgMain"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:id="@+id/llNotConnectedHint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rgMain"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="297dp"
+            android:includeFontPadding="false"
+            android:text="@string/bt_not_connect"
+            android:textColor="@color/colorText"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvSetBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:includeFontPadding="false"
+            android:padding="10dp"
+            android:text="@string/go_to_connect"
+            android:textColor="@color/colorExtra"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flInCall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+</RelativeLayout>

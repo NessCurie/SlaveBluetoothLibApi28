@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlPhoneBook"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.recyclerviewutils.HFRefreshLayout
+        android:id="@+id/hfRlPhoneBook"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        app:headerNestLayout="@layout/layout_list_pull_refresh">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvPhoneBook"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never" />
+    </com.github.recyclerviewutils.HFRefreshLayout>
+
+    <com.github.recyclerviewutils.QuickSideBarView
+        android:id="@+id/quickSideBarView"
+        android:layout_width="17dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="31dp"
+        android:visibility="gone"
+        app:sidebarChooseTextColor="@color/colorPrimary"
+        app:sidebarChooseTextSize="18sp"
+        app:sidebarTextColor="@color/colorTextDark"
+        app:sidebarTextSize="18sp" />
+
+    <FrameLayout
+        android:id="@+id/flSideBarTips"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@id/quickSideBarView"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvTips"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center"
+            android:paddingStart="0dp"
+            android:paddingEnd="17dp"
+            android:textColor="@color/colorText"
+            android:textSize="32sp" />
+    </FrameLayout>
+</RelativeLayout>

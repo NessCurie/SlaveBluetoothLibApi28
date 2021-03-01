@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.github.slavebluetooth.view.DigitsEditText
+        android:id="@+id/etInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:width="358dp"
+        android:background="@android:color/transparent"
+        android:cursorVisible="false"
+        android:focusableInTouchMode="true"
+        android:freezesText="true"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:paddingStart="27dp"
+        android:paddingEnd="27dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="@color/colorText"
+        android:textCursorDrawable="@null"
+        android:textSize="50sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/tvNum1"
+            style="@style/DialTextStyle"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/bg_dial_button_selector"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/tvNum2"
+            style="@style/DialTextStyle"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@id/tvNum1"
+            android:background="@drawable/bg_dial_button_selector"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/tvNum3"
+            style="@style/DialTextStyle"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@id/tvNum2"
+            android:background="@drawable/bg_dial_button_selector"
+            android:text="3" />
+
+        <TextView
+            android:id="@+id/tvNum4"
+            style="@style/DialTextStyle"
+            android:layout_below="@id/tvNum1"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/bg_dial_button_selector"
+            android:text="4" />
+
+        <TextView
+            android:id="@+id/tvNum5"
+            style="@style/DialTextStyle"
+            android:layout_below="@id/tvNum1"
+            android:layout_toEndOf="@id/tvNum4"
+            android:background="@drawable/bg_dial_button_selector"
+            android:text="5" />
+
+        <TextView
+            android:id="@+id/tvNum6"
+            style="@style/DialTextStyle"
+            android:layout_below="@id/tvNum1"
+            android:layout_toEndOf="@id/tvNum5"
+            android:background="@drawable/bg_dial_button_selector"
+            android:text="6" />
+
+        <TextView
+            android:id="@+id/tvNum7"
+            style="@style/DialTextStyle"
+            android:layout_below="@id/tvNum4"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/bg_dial_button_selector"
+            android:text="7" />
+
+        <TextView
+            android:id="@+id/tvNum8"
+            style="@style/DialTextStyle"
+            android:layout_below="@id/tvNum4"
+            android:layout_toEndOf="@id/tvNum4"
+            android:background="@drawable/bg_dial_button_selector"
+            android:text="8" />
+
+        <TextView
+            android:id="@+id/tvNum9"
+            style="@style/DialTextStyle"
+            android:layout_below="@id/tvNum4"
+            android:layout_toEndOf="@id/tvNum5"
+            android:background="@drawable/bg_dial_button_selector"
+            android:text="9" />
+
+        <TextView
+            android:id="@+id/tvSymbolAsterisk"
+            style="@style/DialTextStyle"
+            android:layout_below="@id/tvNum7"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/bg_dial_button_selector"
+            android:gravity="center_horizontal"
+            android:paddingTop="14dp"
+            android:text="*" />
+
+        <TextView
+            android:id="@+id/tvNum0"
+            style="@style/DialTextStyle"
+            android:layout_below="@id/tvNum7"
+            android:layout_toEndOf="@id/tvNum4"
+            android:background="@drawable/bg_dial_button_selector"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tvSymbolPoundSign"
+            style="@style/DialTextStyle"
+            android:layout_below="@id/tvNum7"
+            android:layout_toEndOf="@id/tvNum5"
+            android:background="@drawable/bg_dial_button_selector"
+            android:text="#" />
+    </RelativeLayout>
+</LinearLayout>

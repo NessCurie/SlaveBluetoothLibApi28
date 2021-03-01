@@ -1,0 +1,92 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NormalDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="MainTabStyle">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">13dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="DialogButton" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlHighlight">@color/buttonRippleColor</item>
+    </style>
+
+    <style name="DialTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:layout_marginStart">59dp</item>
+        <item name="android:layout_marginTop">21dp</item>
+    </style>
+
+    <style name="PhoneTabStyle">
+        <item name="android:paddingStart">17dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="SetRelativeLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:background">@drawable/bg_item_width_full_list_selector</item>
+    </style>
+
+    <style name="SetTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="SetSwitchStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:showText">false</item>
+        <item name="android:thumb">@drawable/ic_switch_thumb</item>
+        <item name="android:track">@drawable/bg_switch_track_selector</item>
+    </style>
+
+
+    <style name="SetLineStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="CircleRippleGray20">
+        <item name="android:colorControlHighlight">@color/buttonRippleColor</item>
+        <item name="android:radius">20dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlWhole"
+    android:layout_width="match_parent"
+    android:layout_height="108dp"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:id="@+id/llCallInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="78dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCallInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxWidth="320dp"
+            android:maxLines="1"
+            android:minWidth="120dp"
+            android:textColor="@color/colorText"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvCallTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxWidth="320dp"
+            android:maxLines="1"
+            android:minWidth="140dp"
+            android:textColor="@color/colorText"
+            android:textSize="24sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvCallState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="91dp"
+        android:layout_toEndOf="@id/llCallInfo"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/colorText"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/ivAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="81dp"
+        android:layout_toEndOf="@id/tvCallState"
+        android:background="@drawable/ic_dial_call"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ivHangUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="52dp"
+        android:layout_toEndOf="@id/ivAnswer"
+        android:background="@drawable/ic_hang_up" />
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">从机蓝牙</string>
+    <string name="bt_set">蓝牙设置</string>
+    <string name="bt_state">蓝牙开关</string>
+    <string name="bt_name">蓝牙名称</string>
+    <string name="bt_password">蓝牙密码</string>
+    <string name="bt_phone_set">蓝牙电话自动接听</string>
+    <string name="have_paired_device">已配对的设备</string>
+    <string name="bt_music">蓝牙音乐</string>
+    <string name="bt_book">电话簿</string>
+    <string name="device_state_conn">已连接</string>
+    <string name="device_state_no_conn">未连接</string>
+    <string name="device_state_conning">正在连接…</string>
+    <string name="determine">确定</string>
+    <string name="cancel">取消</string>
+    <string name="call_end">通话结束</string>
+    <string name="is_call">正在呼叫…</string>
+    <string name="go_to_call">去电</string>
+    <string name="call_coming">来电</string>
+    <string name="bt_close_hint">请先打开蓝牙</string>
+    <string name="bt_on_close_hint">正在关闭蓝牙…</string>
+    <string name="bt_on_open_hint">正在打开蓝牙…</string>
+    <string name="no_have_paired_hint">没有已配对的设备</string>
+    <string name="bt_bt_auto_conn_set">蓝牙上电自动连接</string>
+    <string name="list_sync_hint">同步失败,请确认您的蓝牙已连接或您已在手机上同意同步请求</string>
+    <string name="refused_to_sync_hint">没有查询到相关的记录,请重新同步后再试. \n \n
+        如果您在手机上拒绝了同步请求,请在手机上的蓝牙设置中设置允许同步通讯录后重新同步, \n
+        若您的手机设置中没有相关设置,请联系您的手机厂商</string>
+    <string name="phone">蓝牙电话</string>
+    <string name="book">电话簿</string>
+    <string name="hint1">蓝牙正在初始化中,请稍等,请在初始化完毕后进行连接!</string>
+    <string name="hint2">您还未连接蓝牙,请连接蓝牙!</string>
+    <string name="hint3">蓝牙正在连接中,请稍等!</string>
+    <string name="hint4">请确认蓝牙是否打开,请打开蓝牙并连接!</string>
+    <string name="record">通话记录</string>
+    <string name="miss_answ">未接来电</string>
+    <string name="have_answer">已接来电</string>
+    <string name="call_out">呼出记录</string>
+    <string name="change_to_phone">切换至手机</string>
+    <string name="unknown">未知</string>
+    <string name="change_to_bt">切换至蓝牙</string>
+    <string name="sync_hint5">当前正在同步,请稍后再试</string>
+    <string name="unknow_music_name">未知歌曲名称</string>
+    <string name="unknow_music_songer">未知歌手</string>
+    <string name="unknow_music_album">未知专辑</string>
+    <string name="music_hint">请确认蓝牙已连接</string>
+    <string name="device_state_disconn">正在断开…</string>
+    <string name="is_in_connecting">正在连接中</string>
+    <string name="input_hint1">仅限输入英文和数字</string>
+    <string name="input_hint2">请输入要修改的蓝牙名称</string>
+    <string name="input_hint3">仅限输入4位数字</string>
+    <string name="input_hint4">请输入密码</string>
+    <string name="input_hint5">输入的密码过短</string>
+    <string name="pb_sync_hint">正在为您同步,请稍等! 时间取决于您手机中保存的数量</string>
+    <string name="tv_singer">歌手:&#160;&#160;</string>
+    <string name="tv_album">专辑:&#160;&#160;</string>
+    <string name="on_load_more">加载更多中…</string>
+    <string name="mute">静音</string>
+    <string name="change_to_keyboard">键盘</string>
+    <string name="unknown_record_string"><![CDATA[<未命名>]]></string>
+    <string name="book_not_ready_hint">蓝牙连接异常,请断开重连</string>
+    <string name="when_navi_voice">导航播报时音乐声音大小</string>
+    <string name="only_a2dp">未知媒体设备</string>
+    <string name="open">开</string>
+    <string name="close">关</string>
+    <string name="miss_call">未接</string>
+    <string name="call_in">呼入</string>
+    <string name="out_call">呼出</string>
+    <string name="sync">同步</string>
+    <string name="to_call">拨号</string>
+    <string name="mobile_phone">手机</string>
+    <string name="initial_time">00:00</string>
+    <string name="hang_up">挂断</string>
+    <string name="have_call_end">已结束</string>
+    <string name="refusal">拒绝</string>
+    <string name="answer">接听</string>
+    <string name="Calling">正在呼叫</string>
+    <string name="on_calling">通话中</string>
+    <string name="input_empty_hint">请输入电话号码</string>
+    <string-array name="tag_name">
+        <item>蓝牙设置</item>
+        <item>蓝牙音乐</item>
+        <item>蓝牙电话</item>
+        <item>电话簿</item>
+        <item>通话记录</item>
+    </string-array>
+    <string name="sdf_record_list_24h">MM/dd\u0020\u0020\u0020HH:mm</string>
+    <string name="sdf_record_list_12h">MM/dd\u0020\u0020\u0020aah:mm</string>
+</resources>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="0dp">
+
+    <RelativeLayout
+        style="@style/SetRelativeLayoutStyle"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvBtSwitchTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/bt_switch"
+            android:textColor="@color/colorText"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switchBt"
+            style="@style/SetSwitchStyle" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvBtCloseHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/bluetooth_empty_list_bluetooth_off"
+            android:textColor="@color/colorText"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/llBtOpen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View style="@style/SetLineStyle" />
+
+            <RelativeLayout
+                android:id="@+id/rlBtName"
+                style="@style/SetRelativeLayoutStyle">
+
+                <TextView
+                    style="@style/SetTextStyle"
+                    android:text="@string/bt_name" />
+
+                <ImageView
+                    android:id="@+id/ivBtName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/ic_set_enter" />
+
+                <TextView
+                    android:id="@+id/tvBtName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="14dp"
+                    android:layout_toStartOf="@id/ivBtName"
+                    android:textColor="@color/colorTextDark"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+            <View style="@style/SetLineStyle" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    style="@style/SetRelativeLayoutStyle"
+                    android:background="@drawable/bg_item_width_full_list_selector">
+
+                    <TextView
+                        style="@style/SetTextStyle"
+                        android:text="@string/auto_answer" />
+
+                    <Switch
+                        android:id="@+id/sbAutoAnswer"
+                        style="@style/SetSwitchStyle" />
+                </RelativeLayout>
+
+                <View style="@style/SetLineStyle" />
+
+                <RelativeLayout
+                    style="@style/SetRelativeLayoutStyle"
+                    android:background="@drawable/bg_item_width_full_list_selector">
+
+                    <TextView
+                        style="@style/SetTextStyle"
+                        android:text="@string/auto_sync_phone" />
+
+                    <Switch
+                        android:id="@+id/sbAutoSyncPhone"
+                        style="@style/SetSwitchStyle" />
+                </RelativeLayout>
+
+                <View style="@style/SetLineStyle" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:text="@string/have_paired_device"
+                android:textColor="@color/colorTextDeepDark"
+                android:textSize="24sp"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:visibility="gone">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rvBondDevice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="52dp"
+                    android:overScrollMode="never" />
+
+                <TextView
+                    android:id="@+id/tvNoBondDevice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/no_have_paired_hint"
+                    android:textColor="@color/colorTextDeepDark"
+                    android:textSize="24sp"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/bluetooth_preference_found_devices"
+                        android:textColor="@color/colorTextDeepDark"
+                        android:textSize="24sp" />
+
+                    <ImageView
+                        android:id="@+id/ivRefresh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="19dp"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:padding="7dp"
+                        android:src="@drawable/ic_set_bt_refresh"
+                        android:theme="@style/CircleRippleGray20"
+                        tools:ignore="NewApi" />
+                </RelativeLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:visibility="visible">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rvFindDevice"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="52dp"
+                        android:overScrollMode="never" />
+
+                    <TextView
+                        android:id="@+id/tvNoFindDevice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/bluetooth_no_devices_found"
+                        android:textColor="@color/colorTextDeepDark"
+                        android:textSize="24sp"
+                        android:visibility="gone" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

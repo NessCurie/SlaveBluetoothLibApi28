@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="buttonRippleColor">#4DAAAAAA</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextDim">#CCCCCC</color>
+    <color name="colorTextDark">#B3B3B3</color>
+    <color name="colorTextDeepDark">#808080</color>
+    <color name="colorTextBlack">#1A1A1A</color>
+    <color name="colorExtra">#2E80E6</color>
+    <color name="colorRed">#F31B1F</color>
+    <color name="colorLine">#808080</color>
+    <color name="colorDialogBackground">#333333</color>
+</resources>
+
+

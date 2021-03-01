@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">SlaveBluetooth</string>
+    <string name="bt_set">Bluetooth Setting</string>
+    <string name="bt_state">Bluetooth Switch</string>
+    <string name="bt_name">Bluetooth Name</string>
+    <string name="bt_password">Bluetooth Password</string>
+    <string name="bt_phone_set">Incoming Call Auto Answer via BT</string>
+    <string name="have_paired_device">Paired device</string>
+    <string name="bt_music">Bluetooth music</string>
+    <string name="bt_book">Phonebook</string>
+    <string name="device_state_no_conn">Not connected</string>
+    <string name="device_state_conning">Connecting…</string>
+    <string name="device_state_conn">Connected</string>
+    <string name="determine">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="call_end">Call end</string>
+    <string name="is_call">Is calling…</string>
+    <string name="go_to_call">Outgoing Call</string>
+    <string name="call_coming">Incoming Call</string>
+    <string name="bt_close_hint">Please Turn On Bluetooth</string>
+    <string name="bt_on_close_hint">Closing Bluetooth</string>
+    <string name="bt_on_open_hint">Activating Bluetooth</string>
+    <string name="no_have_paired_hint"> No Paired Devices</string>
+    <string name="bt_bt_auto_conn_set">Automatic Bluetooth Connection</string>
+    <string name="list_sync_hint">Synchronization Failed, Pls Confirm Bluetooth Is Connected and Request for Synchronization Is Agreed.</string>
+    <string name="refused_to_sync_hint">Records Not Found, Pls Try Again After Re-synchronization \n \n
+        If You Refused Request For Synchronization, Pls Allow Contacts Synchronization In Cell Phone’s Bluetooth Setting.
+        If There’s No Such Setting In Your Cell Phone, Pls Contact Your Cell Phone Manufacturer.</string>
+    <string name="phone">Phone</string>
+    <string name="book">Phonebook</string>
+    <string name="hint1">Bluetooth Is Initializing, Pls Connect It When Initialization Completed.</string>
+    <string name="hint2">Bluetooth Not Connected, Pls Connect It Firstly.</string>
+    <string name="hint3">Bluetooth Connecting, Pls Wait!</string>
+    <string name="hint4">Pls Confirm Bluetooth Is Turned On</string>
+    <string name="record">Recent Call</string>
+    <string name="miss_answ">Missed Call</string>
+    <string name="have_answer">Incoming Call</string>
+    <string name="call_out">Outgoing Call</string>
+    <string name="change_to_phone">Switch to Cell Phone</string>
+    <string name="unknown">Unknown</string>
+    <string name="change_to_bt">Switch to Bluetooth</string>
+    <string name="sync_hint5">Synchronizing Now, Pls Try Again Later</string>
+    <string name="unknow_music_name">Unknown Song Name</string>
+    <string name="unknow_music_songer">Unknown Signer</string>
+    <string name="unknow_music_album">Unknown Album</string>
+    <string name="music_hint">Please Confirm Bluetooth Is Connected</string>
+    <string name="device_state_disconn">Disconnecting Now…</string>
+    <string name="is_in_connecting">Connecting Now</string>
+    <string name="input_hint1">Enter English Letter and Digit Only</string>
+    <string name="input_hint2">Input the Bluetooth’s New Name</string>
+    <string name="input_hint3">Enter 4 Digits Only</string>
+    <string name="input_hint4">Pls Enter Password</string>
+    <string name="input_hint5">Password Is Too Short</string>
+    <string name="pb_sync_hint">Synchronizing Now, Waiting Time Depends on The Size of Data Stored in Your Phone.</string>
+    <string name="tv_singer">Singer:&#160;&#160;</string>
+    <string name="tv_album">Album:&#160;&#160;</string>
+    <string name="on_load_more">Loading more…</string>
+    <string name="mute">Mute</string>
+    <string name="change_to_keyboard">Keyboard</string>
+    <string name="unknown_record_string"><![CDATA[<unnamed>]]></string>
+    <string name="book_not_ready_hint"> Bluetooth Connection Unusual, Please Reconnect</string>
+    <string name="when_navi_voice">Music Volume When NAV Broadcast</string>
+    <string name="only_a2dp">Unknown Media Device</string>
+    <string name="open">ON</string>
+    <string name="close">OFF</string>
+    <string name="miss_call">Missed Call</string>
+    <string name="call_in">Incoming Call</string>
+    <string name="out_call">Outgoing Call</string>
+    <string name="sync">Sync</string>
+    <string name="to_call">Dial</string>
+    <string name="mobile_phone">Phone</string>
+    <string name="initial_time">00:00</string>
+    <string name="hang_up">Hang up</string>
+    <string name="have_call_end">Over</string>
+    <string name="refusal">Refuse</string>
+    <string name="answer">Answer</string>
+    <string name="Calling">Is calling</string>
+    <string name="on_calling">Calling</string>
+    <string name="input_empty_hint">Please enter your phone number</string>
+    <string-array name="tag_name">
+        <item>Bluetooth Setting</item>
+        <item>Bluetooth Music</item>
+        <item>Phone</item>
+        <item>Phonebook</item>
+        <item>Recent Call</item>
+    </string-array>
+
+    <string name="bt_phone">蓝牙通话</string>
+    <string name="bt_not_connect">蓝牙未连接</string>
+    <string name="go_to_connect">去连接?</string>
+    <string name="bt_switch">蓝牙开关</string>
+    <string name="please_input_bluetooth_name">请输入蓝牙名称</string>
+    <string name="contact">联系人</string>
+
+    <string name="bt_pin_input_hint">请输入PIN码</string>
+    <string name="bluetooth_empty_list_bluetooth_off" msgid="6351930724051893423">"开启蓝牙后，您的设备可以与附近的其他蓝牙设备通信。"</string>
+    <string name="bluetooth_preference_paired_dialog_title" msgid="8875124878198774180">"已配对的设备"</string>
+    <string name="bluetooth_preference_found_devices" msgid="1647983835063249680">"可用设备"</string>
+    <string name="bluetooth_turning_on" msgid="4850574877288036646">"正在打开蓝牙…"</string>
+    <string name="bluetooth_turning_off" msgid="2337747302892025192">"正在关闭蓝牙…"</string>
+    <string name="bluetooth_no_devices_found" msgid="1085232930277181436">"未在附近找到蓝牙设备。"</string>
+    <string name="bluetooth_pin_values_hint" msgid="3815897557875873646">"通常为 0000 或 1234"</string>
+    <string name="bluetooth_pin_values_hint_16_digits" msgid="7849359451584101077">"必须为 16 位数字"</string>
+    <string name="bluetooth_enter_pin_other_device" msgid="4637977124526813470">"您可能还需要在另一设备上输入此PIN码。"</string>
+    <string name="bluetooth_enter_passkey_other_device" msgid="2798719004030279602">"您可能还需要在另一台设备上输入此密钥。"</string>
+    <string name="bluetooth_disconnected" msgid="6557104142667339895">"未连接"</string>
+    <string name="bluetooth_disconnecting" msgid="8913264760027764974">"正在断开连接..."</string>
+    <string name="bluetooth_connecting" msgid="8555009514614320497">"正在连接..."</string>
+    <string name="bluetooth_connected" msgid="6038755206916626419">"已连接"</string>
+    <string name="bluetooth_pairing" msgid="1426882272690346242">"正在配对..."</string>
+
+    <string name="sdf_record_list">MM/dd\u0020\u0020\u0020HH:mm</string>
+    <string name="no_data">暂无数据</string>
+    <string name="pull_to_sync">下拉同步</string>
+    <string name="ready_to_sync">释放同步</string>
+    <string name="syncing">正在同步</string>
+    <string name="sync_success">同步完成</string>
+
+    <string name="call_state_active">通话中...</string>
+    <string name="call_state_dialing">呼叫...</string>
+    <string name="call_state_incoming">来电...</string>
+    <string name="multi_call">电话会议(与%s人)</string>
+
+    <string name="auto_answer">自动接听</string>
+    <string name="auto_sync_phone">自动同步电话本</string>
+
+    <string name="no_devices">没有可用设备</string>
+    <string name="please_pull_to_refresh">请下拉刷新</string>
+
+    <string name="sdf_record_list_24h">MM/dd\u0020\u0020\u0020HH:mm</string>
+    <string name="sdf_record_list_12h">MM/dd\u0020\u0020\u0020h:mm aa</string>
+
+</resources>

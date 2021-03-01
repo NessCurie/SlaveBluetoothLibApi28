@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="260dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="20dp"
+            android:includeFontPadding="false"
+            android:text="@string/bt_name"
+            android:textColor="@color/colorTextDim"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:id="@+id/etInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="50dp"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/please_input_bluetooth_name"
+            android:inputType="textNoSuggestions"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTextDeepDark"
+            android:textCursorDrawable="@null"
+            android:textSize="26sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/tvCancel"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextDark"
+                android:textSize="26sp"
+                android:theme="@style/DialogButton" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="52dp"
+                android:layout_marginEnd="52dp" />
+
+            <Button
+                android:id="@+id/tvConfirm"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/determine"
+                android:textAllCaps="false"
+                android:textColor="@color/colorExtra"
+                android:textSize="22sp"
+                android:theme="@style/DialogButton" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

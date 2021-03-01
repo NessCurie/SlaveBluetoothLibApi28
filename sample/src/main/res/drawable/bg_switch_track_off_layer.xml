@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="14dp"
+        android:drawable="@drawable/bg_switch_track_off"
+        android:top="14dp" />
+</layer-list>
